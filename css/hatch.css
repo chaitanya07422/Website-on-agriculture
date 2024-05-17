@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0px 0 0 0;
+    margin: 0;
+    /* background-image: url("../images/hatcheries/hatch.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            #080808 10%,
+            #060606 0%,
+            #fafafa 60%,
+            #fafafa 100%);
+}
+
+@media screen and(max-width: 1000px) {
+    .header {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right,
+                #0e0e0e 10%,
+                #121212 0%,
+                #fafafa 20%,
+                #fafafa 100%);
+    }
+}
+
+.header {
+    overflow: hidden;
+    background-color: #030303;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    float: left;
+    color: #090909;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.navbar {
+    font-family: cursive;
+}
+
+.header a.logo {
+    color: #ffffff;
+    font-family: Matura MT Script Capitals;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: rgb(255, 255, 255);
+}
+
+.header a.logo:hover {
+    background: none;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+/* ....................................... */
+
+
+.hatcheries {
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 50px 100px 30px 70px;
+    gap: 60px;
+    background-color: #e8e8e8;
+    /* border: 2px solid black; */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+.h1 {
+    font-size: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+h {
+    font-size: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+p {
+    word-break: normal;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+span {
+    word-break: normal;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.types_main_img img {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .types {
+        width: 100%;
+        padding: 0px 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .types_main_img {
+        width: 100%;
+        padding: 50px 30px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .h1 {
+        font-size: 22px;
+        font-family: 'Delius Swash Caps', cursive;
+    }
+
+    .p {
+        word-break: normal;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 10px;
+        padding: 0px;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+    span {
+        word-break: normal;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 10px;
+        padding: 0px;
+        font-family: 'Edu SA Beginner', cursive;
+    }
+
+}
+
+
+/* ............................................................... */
+
+/* .definition{
+    border: 2px solid black;
+} */
+
+.def {
+    /* border: 2px solid black; */
+    padding: 10px 500px 10px 200px;
+}
+
+.def1 {
+    padding: 10px 200px 10px 500px;
+    background-color: #e8e8e8;
+    text-align: right;
+}
+
+
+.c_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 0px;
+}
+
+/* .................................................................. */
